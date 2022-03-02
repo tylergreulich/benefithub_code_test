@@ -38,7 +38,7 @@ export const TodoDetails = () => {
       const data: Todo = await response.json();
       setTodo(data);
     })();
-  }, []);
+  }, [id]);
 
   return (
     <>
